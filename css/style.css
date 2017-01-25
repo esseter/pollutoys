@@ -229,17 +229,17 @@ background-color: transparent;
 
 a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
-	border: 1px solid #c59a6d;
+	border: 1px solid #999;
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
 	cursor: pointer;
-	color: #c59a6d;
-	margin-top: 30px;
+	color: #999;
+	margin-top: 90px;
 }
 
 #overview-video {
-	background: url(../img/bg2.jpg);
+	background: url(../img/bg2bis2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -309,7 +309,7 @@ a.btn.go-to-btn:hover{
 }
 
 .nopadding{
-	padding: 0;
+	padding: 5px;
 	margin: 0;
 }
 
