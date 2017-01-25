@@ -177,7 +177,7 @@ z-index: 10;
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover,
 .navmenu-default .navmenu-nav>li>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a:focus {
-color: #C59A6D;
+color: #8ad0d3;
 background-color: transparent;
 }
 .nav > li {
@@ -201,12 +201,12 @@ color: #87d2d8;
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover,
 .navmenu-default .navmenu-nav>.active>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus {
-color: #C59A6D;
+color: #8ad0d7;
 background-color: transparent;
 }
 
 .close:hover{
-	background: #c59a6d;
+	background: #88cfd1;
 	color: #ffffff;
 	opacity: 1;
 }
@@ -235,7 +235,8 @@ a.down-btn span.fa.fa-angle-down {
 	position: relative;
 	cursor: pointer;
 	color: #999;
-	margin-top: 90px;
+	margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 #overview-video {
