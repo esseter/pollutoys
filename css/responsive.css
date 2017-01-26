@@ -2,6 +2,9 @@
 nav#menu span.fa.fa-bars {
 left: 60px;
 }
+#logoTop img {
+  width: 30%;
+}
 .header-text.btn {
 height: auto;
 white-space: inherit;
