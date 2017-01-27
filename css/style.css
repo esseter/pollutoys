@@ -57,7 +57,7 @@ hr{
 a {color: #222222}
 a:hover,
 a:focus{
-	color: #8bd0d6;
+	color: #black;
 	text-decoration: none;
 }
 
@@ -226,13 +226,26 @@ background-color: transparent;
 	margin-top: 200px;
 }
 
+.section-title h2 {
+  margin-top: 100px;
+}
+
 #meet-us,
 #services,
 #works,
 #about-us{
-	padding: 60px 0;
+  background: url(../img/team/bgandrea.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
+#about-us .overlay{
+	height: auto;
+	min-height: 200px;
+	padding: 8% 0 ;
+	color: #ffffff;
+}
 a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
 	border: 1px solid #999;
@@ -241,8 +254,7 @@ a.down-btn span.fa.fa-angle-down {
 	position: relative;
 	cursor: pointer;
 	color: #999;
-	margin-top: 60px;
-  margin-bottom: 30px;
+	margin-top: 90px;
   transition: all 0.8s;
 }
 
@@ -448,13 +460,15 @@ ul.clients li{
 
 .team {
 	border: 1px solid #c3c3c3;
-	padding: 70px 20px;
+	padding: 30px 20px;
 	text-align: center;
-	opacity: 0.7;
+	opacity: 0.9;
 	transition: all 0.8s;
-	max-height: 340px;
+	max-height: 480px;
 	margin-bottom: 30px;
+  background: white;
 }
+
 .team:hover.hire,
 .team.hire{
 	height: 340px;
@@ -475,7 +489,7 @@ ul.clients li{
 	border: 1px solid #222;
 }
 .team img {
-	width: 80px;
+	width: 160px;
 	margin: 0 auto;
 }
 

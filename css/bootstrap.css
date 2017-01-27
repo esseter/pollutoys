@@ -1102,9 +1102,23 @@ h6,
 .h6 {
   font-size: 12px;
 }
-p {
-  margin: 0 0 10px;
+
+
+#about-us p {
+    margin: 0 0 10px;
+    color: black;
+  	padding: 30px 20px;
+  	text-align: center;
+  	opacity: 0.9;
+  	transition: all 0.8s;
+  	max-height: 480px;
+  	margin-bottom: 30px;
+    background: white;
 }
+#about-us p:hover{
+  opacity: 1;
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1768,6 +1782,7 @@ pre code {
   }
   .col-md-4 {
     width: 33.33333333%;
+    left: 43%;
   }
   .col-md-3 {
     width: 25%;
