@@ -479,18 +479,23 @@ ul.clients li{
 
 .team.hire>a{
 	color: #8bd0d6;
+  margin: 0px;
 }
 .team hr{
+  margin-bottom: 0px
 	border-width: 2px;
-	border-color: #dcc2a7;
+	border-color: #8bd1d6;
 }
 .team:hover{
 	opacity: 1;
 	border: 1px solid #222;
 }
 .team img {
-	width: 160px;
+	width: 110px;
 	margin: 0 auto;
+}
+.team h4 {
+  margin: 0px;
 }
 
 #testimonials {

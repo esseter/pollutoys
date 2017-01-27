@@ -963,7 +963,7 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eee;
@@ -1107,7 +1107,7 @@ h6,
 #about-us p {
     margin: 0 0 10px;
     color: black;
-  	padding: 30px 20px;
+  	padding: 10px 20px;
   	text-align: center;
   	opacity: 0.9;
   	transition: all 0.8s;
