@@ -66,8 +66,8 @@ a:focus{
 }
 #logoTop img {
   position: absolute;
-  top: 0px;
-  right: 10px;
+  top: -40px;
+  right: 40px;
 }
 
 
@@ -175,9 +175,9 @@ z-index: 10;
 }
 .navmenu-default,
 .navbar-default .navbar-offcanvas {
-	background-color: #1E2429;
 	border-color: #1E2429;
 	border: 0;
+  background-image: url(../img/bgmenu.jpg);
 }
 .navmenu-default .navmenu-nav>li>a:hover,
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover,
