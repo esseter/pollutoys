@@ -239,7 +239,9 @@ background-color: transparent;
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+#about-us a.down-btn span.fa.fa-angle-down{
+  margin-top: 0px;
+}
 #about-us .overlay{
 	height: auto;
 	min-height: 200px;
