@@ -195,8 +195,8 @@ text-align: center;
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
 color: #ffffff;
 text-transform: uppercase;
-font-size: 12px;
-line-height: 30px;
+font-size: 19px;
+line-height: 100px;
 }
 nav#menu span.fa.fa-bars:hover {
 color: #87d2d8;
