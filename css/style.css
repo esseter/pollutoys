@@ -227,7 +227,7 @@ background-color: transparent;
 }
 
 .section-title h2 {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 #meet-us,
@@ -432,7 +432,7 @@ a.btn.send-btn:hover{
 }
 
 #clients {
-	background: url(../img/bg3.jpg);
+	background: url(../img/bg2bis2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -631,6 +631,20 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-size: 13px;
     letter-spacing: 1px;
     font-style: italic;
+}
+
+#Illustration {
+  background: url(../img/Pollutoys_PollutionIssue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#Illustration .overlay{
+	height: auto;
+	min-height: 2700px;
+	padding: 8% 0 ;
+	color: #ffffff;
 }
 
 nav#footer{
