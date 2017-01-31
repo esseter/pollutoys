@@ -322,10 +322,10 @@ function keydown(event) {
     
     var shift, x = 0, y = 0;
     var elem = overflowingAncestor(activeElement);
-    var clientHeight = elem.clientHeight;
+    var partnerHeight = elem.partnerHeight;
 
     if (elem == document.body) {
-        clientHeight = window.innerHeight;
+        partnerHeight = window.innerHeight;
     }
 
     switch (event.keyCode) {
@@ -337,19 +337,19 @@ function keydown(event) {
             break;         
         case key.spacebar: // (+ shift)
             shift = event.shiftKey ? 1 : -1;
-            y = -shift * clientHeight * 0.9;
+            y = -shift * partnerHeight * 0.9;
             break;
         case key.pageup:
-            y = -clientHeight * 0.9;
+            y = -partnerHeight * 0.9;
             break;
         case key.pagedown:
-            y = clientHeight * 0.9;
+            y = partnerHeight * 0.9;
             break;
         case key.home:
             y = -elem.scrollTop;
             break;
         case key.end:
-            var damt = elem.scrollHeight - elem.scrollTop - clientHeight;
+            var damt = elem.scrollHeight - elem.scrollTop - partnerHeight;
             y = (damt > 0) ? damt+10 : 0;
             break;
         case key.left:
@@ -404,10 +404,10 @@ function overflowingAncestor(el) {
         }
         elems.push(el);
         if (rootScrollHeight === el.scrollHeight) {
-            if (!isFrame || root.clientHeight + 10 < rootScrollHeight) {
+            if (!isFrame || root.partnerHeight + 10 < rootScrollHeight) {
                 return setCache(elems, document.body); // scrolling root in WebKit
             }
-        } else if (el.clientHeight + 10 < el.scrollHeight) {
+        } else if (el.partnerHeight + 10 < el.scrollHeight) {
             overflow = getComputedStyle(el, "").getPropertyValue("overflow-y");
             if (overflow === "scroll" || overflow === "auto") {
                 return setCache(elems, el);

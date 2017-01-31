@@ -35,12 +35,12 @@ function main() {
 
 
     /* ==============================================
-	Testimonial Slider
+	project Slider
 	=============================================== */ 
 
 	$(document).ready(function() {
 	 
-	  $("#testimonial").owlCarousel({
+	  $("#project").owlCarousel({
 	 
 	      navigation : false, // Show next and prev buttons
 	      slideSpeed : 300,

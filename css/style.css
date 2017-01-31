@@ -431,7 +431,7 @@ a.btn.send-btn:hover{
 	color: #ffffff;
 }
 
-#clients {
+#partners {
 	background: url(../img/bg2bis2.jpg);
 	background-size: cover;
 	background-position: center;
@@ -440,7 +440,7 @@ a.btn.send-btn:hover{
 	text-align: center;
 }
 
-#clients .overlay{
+#partners .overlay{
 	background: rgba(139, 208, 214, 0.38);
 	height: auto;
 	min-height: 200px;
@@ -454,7 +454,7 @@ ul, ol{
 	webkit-padding: 0;
 }
 
-ul.clients li{
+ul.partners li{
 	display: inline-block;
 	padding: 20px 40px;
 	vertical-align: middle;
@@ -500,7 +500,7 @@ ul.clients li{
   margin: 0px;
 }
 
-#testimonials {
+#projects {
 	background: url(../img/bg4.jpg);
 	background-size: cover;
 	background-position: center;
@@ -509,7 +509,7 @@ ul.clients li{
 	text-align: center;
 }
 
-#testimonials .overlay{
+#projects .overlay{
 	background: rgba(34, 34, 34, 0.85);
 	height: auto;
 	min-height: 200px;
