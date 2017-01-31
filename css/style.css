@@ -638,6 +638,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  background-position: center;
 }
 
 #Illustration .overlay{
