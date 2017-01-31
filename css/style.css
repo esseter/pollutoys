@@ -196,7 +196,7 @@ text-align: center;
 color: #ffffff;
 text-transform: uppercase;
 font-size: 19px;
-line-height: 100px;
+line-height: 50px;
 }
 nav#menu span.fa.fa-bars:hover {
 color: #87d2d8;
@@ -238,6 +238,7 @@ background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: #34439e;
 }
 #about-us a.down-btn span.fa.fa-angle-down{
   margin-top: 0px;
@@ -501,21 +502,46 @@ ul.partners li{
 }
 
 #projects {
-	background: url(../img/bg4.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
+  background-color: #34439e;
 	text-align: center;
 }
 
 #projects .overlay{
-	background: rgba(34, 34, 34, 0.85);
 	height: auto;
 	min-height: 200px;
 	padding: 5% 0 ;
 	color: #ffffff;
 }
+#projects h2 {
+  color: white;
+}
+#projects h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+}
+#projects h6 {
+  color: white;
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+a.btn.download-btn{
+	text-transform: uppercase;
+	background: #ffffff;
+	color: #000000;
+	word-spacing: 2px;
+	padding: 7px 30px;
+	border-radius: 2px;
+	font-size: 12px;
+	transition: all 0.5s;
+}
+a.btn.download-btn:hover{
+	background: #80d3d9;
+	color: #000000;
+}
+
 
 .owl-theme .owl-controls .owl-page span {
 	display: block;
