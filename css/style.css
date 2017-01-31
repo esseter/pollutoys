@@ -648,6 +648,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 	color: #ffffff;
 }
 
+
 @media screen and (max-width: 650px) {
   #Illustration .overlay{
     zoom: 0.4;
