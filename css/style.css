@@ -72,7 +72,7 @@ a:focus{
 
 
 #home{
-	background: url(../img/bg1bis.jpg);
+	background: url(../img/bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -164,7 +164,7 @@ nav#menu span.fa.fa-bars{
 	font-size: 30px;
 	position: fixed;
 	left: 120px;
-	color: #999;
+	color: #81d5da;
 	cursor: pointer;
 	z-index: 1;
 }

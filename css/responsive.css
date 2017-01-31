@@ -21,6 +21,22 @@ a.down-btn span.fa.fa-angle-down {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#home a.down-btn span.fa.fa-angle-down{
+  margin-top: 550px;
+}
+#home{
+	background: url(../img/bgmobilehome.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: auto;
+	min-height: 710px;
+	padding-top: 60px;
+	color: #ffffff;
+}
+
 }
 
 @media only screen and (max-width: 460px){
