@@ -999,8 +999,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Varela Round', sans-serif;
-  font-weight: 500;
+  font-family: 'Liquid1','Varela Round', sans-serif;
+  font-weight: 600;
   line-height: 1.1;
   color: inherit;
 }

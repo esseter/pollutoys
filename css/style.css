@@ -1,13 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-
+@font-face { font-family: Liquid1; src: url('fonts/Liquid1.ttf'); }
+@font-face { font-family: Liquid2; src: url('fonts/Liquid2.ttf'); }
+@font-face { font-family: Liquid1; src: url('fonts/Liquid3.ttf'); }
 
 body, html{
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: auto;
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Liquid1','Montserrat', sans-serif;
 }
 @media (min-width: 1200px){
 	.container {
@@ -520,11 +522,12 @@ ul.partners li{
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
+  margin-top: 0px;
 }
 #projects h6 {
   color: white;
   font-size: 24px;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 a.btn.download-btn{
