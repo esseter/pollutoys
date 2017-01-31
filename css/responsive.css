@@ -12,6 +12,15 @@ white-space: inherit;
 .hover-bg .hover-text {
 padding: 15% 0;
 }
+#overview-video .overlay{
+	padding-bottom: 1%;
+  padding-top: 0%;
+}
+
+a.down-btn span.fa.fa-angle-down {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 }
 
 @media only screen and (max-width: 460px){
@@ -27,9 +36,7 @@ padding-top: 30%;
 .hover-bg .hover-text {
 padding: 20% 0;
 }
-#overview-video .overlay {
-    padding: 30% 0px;
-}
+
 }
 @media only screen and (max-width: 360px){
 h1 {
