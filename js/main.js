@@ -28,17 +28,23 @@ function main() {
     /*====================================
     Menu Active Calling Scroll Spy
     ======================================*/
-    $('body').scrollspy({
-      target: '.navmenu',
-      offset: 80,
-    });
+    $(document).ready(function() {
 
+      setTimeout(function(){
+          $('body').addClass('loaded');
+          $('h1').css('color','#222222');
+      }, 2000);
+
+  });
 
     /* ==============================================
 	project Slider
 	=============================================== */
 
 	$(document).ready(function() {
+    setTimeout(function(){
+            $('body').addClass('loaded');
+        }, 3000);
 
 	  $("#project").owlCarousel({
 
@@ -56,7 +62,6 @@ function main() {
 	      // itemsMobile : false
 
 	  });
-
 	});
 
 
