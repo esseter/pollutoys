@@ -553,15 +553,20 @@ background-color: transparent;
 
 .overlayn nav {
   position: relative;
-  height: 50%;
+  height: 60%;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 40px;
+  padding-left: 4%;
 }
+.overlay-menu li:nth-of-type(6) {
+  padding-left: 0%;
+}
+
 .overlayn ul {
   list-style: none;
   padding: 0;
@@ -620,7 +625,9 @@ background-color: transparent;
 .overlayn.open li:nth-of-type(4) {
   animation-delay: .50s;
 }
-
+.overlayn.open li:nth-of-type(5) {
+  animation-delay: .55s;
+}
 @keyframes fadeInRight {
   0% {
     opacity: 0;
