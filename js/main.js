@@ -62,6 +62,16 @@ function main() {
 	      // itemsMobile : false
 
 	  });
+
+
+
+  $('.open-menu').on('click', function() {
+     $('.overlayn').addClass('open');
+  });
+
+  $('.close-menu').on('click', function() {
+    $('.overlayn').removeClass('open');
+  });
 	});
 
 

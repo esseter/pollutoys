@@ -326,7 +326,7 @@ a:focus{
 #logoTop {
   position: relative;
 }
-#logoTop img {
+#logo img {
   position: absolute;
   top: -40px;
   right: 40px;
@@ -492,6 +492,181 @@ background-color: transparent;
   margin-top: 20px;
   padding-bottom: 30px;
   padding-top: 20px;
+}
+
+.navbarn {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbarn .logo {
+  padding-top: 5%;
+  zoom: 0.7;
+  padding-left: 5%;
+}
+
+.navbar-buttons {
+  position: relative;
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overlayn {
+  position: fixed;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+}
+
+.overlayn.open {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+  z-index: 2;
+}
+
+.overlayn .nav-title {
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 8%;
+}
+
+.overlayn nav {
+  position: relative;
+  height: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 45px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 40px;
+}
+.overlayn ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlayn ul li {
+  display: block;
+  position: relative;
+  opacity: 0;
+  margin-bottom: 50px;
+}
+.overlayn ul li a {
+  display: block;
+  position: relative;
+  color: #FFF;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.overlayn ul li a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 43.5%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #FFF;
+  transition: .35s;
+}
+
+.overlayn ul li a:hover,
+.overlayn ul li a:focus,
+.overlayn ul li a:active {
+  color: #8bd0d2;
+}
+.overlayn ul li a:hover:after,
+.overlayn ul li a:focus:after,
+.overlayn ul li a:active:after {
+  width: 100%;
+  background: #8bd0d2;
+}
+.overlayn.open li {
+  animation: fadeInRight .5s ease forwards;
+  animation-delay: .35s;
+}
+.overlayn.open li:nth-of-type(2) {
+  animation-delay: .4s;
+}
+.overlayn.open li:nth-of-type(3) {
+  animation-delay: .45s;
+}
+.overlayn.open li:nth-of-type(4) {
+  animation-delay: .50s;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+button:focus {
+  outline:0;
+}
+
+.open-menu,
+.close-menu,
+.button {
+  cursor: pointer;
+  transition: transform 0.30s;
+}
+.open-menu:hover,
+.close-menu:hover,
+.button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 670px) {
+  .overlayn nav {
+    font-size: 30px;
+  }
+  .navbarn .logo {
+  zoom: 0.5;
+}
+}
+@media (max-width: 550px) {
+  .overlayn nav {
+    font-size: 15px;
+    letter-spacing: 20px;
+  }
+  .overlayn ul li a {
+    padding-left: 7%;
+}
+  .navbarn .logo {
+  zoom: 0.5;
+}
 }
 
 #meet-us,
