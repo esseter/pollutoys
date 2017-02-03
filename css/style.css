@@ -490,6 +490,8 @@ background-color: transparent;
 
 .section-title h2 {
   margin-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 #meet-us,
@@ -551,6 +553,11 @@ a.down-btn span.fa.fa-angle-down:hover {
 	color: #fff;
 	text-align: center;
 	margin: auto 0;
+}
+
+#overview-video .section-title{
+  color: white;
+  padding-bottom: 30px;
 }
 
 .service{
@@ -770,7 +777,7 @@ ul.partners li{
 
 #projects .overlay{
 	height: auto;
-	min-height: 890px;
+	min-height: 0px;
 	padding: 5% 0 ;
 	color: #ffffff;
 }
