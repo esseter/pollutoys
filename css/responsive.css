@@ -43,6 +43,16 @@ a.down-btn span.fa.fa-angle-down {
 h3 {
     font-size: 12px;
 }
+
+#projects h3 {
+  font-size: 11px;
+  line-height: 20px;
+}
+
+#projects .overlay{
+  min-height: 840px;
+}
+
 nav#menu span.fa.fa-bars {
 left: 30px;
 }
